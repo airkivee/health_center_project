@@ -1,0 +1,30 @@
+// server/views/admin/adminPanel.ejs
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Админ Панель</title>
+    <link rel="stylesheet" href="/styles/admin.css">
+</head>
+<body>
+    <header>
+        <h1>Админ Панель</h1>
+        <nav>
+            <ul>
+                <li><a href="/admin/manageUsers">Управление пользователями</a></li>
+                <li><a href="/admin/manageContent">Управление контентом</a></li>
+                <li><a href="/logout">Выйти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Добро пожаловать в админ панель!</h2>
+        <p>Здесь вы можете управлять пользователями и контентом сайта.</p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Федерация тяжёлой атлетики КР</p>
+    </footer>
+</body>
+</html>

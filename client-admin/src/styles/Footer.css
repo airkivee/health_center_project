@@ -1,0 +1,11 @@
+/* Footer.css - Стили для футера */
+.footer {
+    background-color: #1a237e;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

@@ -1,0 +1,24 @@
+/* Header.css - Стили для хедера с логотипом Ассоциации тяжёлой атлетики КР */
+.header-top-navbar {
+    background-color: #1a237e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 0;
+  }
+  
+  .header-bottom-navbar {
+    background-color: #0d47a1;
+    margin-top: 62px;
+  }
+  
+  .header-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .header-logo-circle {
+    border-radius: 50%;
+  }
